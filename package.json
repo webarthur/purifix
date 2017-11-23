@@ -1,0 +1,20 @@
+{
+  "name": "purifix",
+  "version": "1.0.1",
+  "description": "Purify functions for node",
+  "main": "purifix.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webarthur/purifix.git"
+  },
+  "keywords": [
+    "sanitize",
+    "purify"
+  ],
+  "author": "Arthur Araújo <webarthur@gmail.com> (https://araujo.cc)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webarthur/purifix/issues"
+  },
+  "homepage": "https://github.com/webarthur/purifix#readme"
+}
