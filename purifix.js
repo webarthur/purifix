@@ -1,6 +1,6 @@
 module.exports = {
 
-  string: function (switch, df = '') {
+  string: function (s, df = '') {
     return typeof s === 'string' ? s : df
   },
 
