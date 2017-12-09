@@ -44,11 +44,13 @@ module.exports = {
   },
 
   int: function (n, df = 0) {
-    return parseInt(n) || df
+    var n = parseInt(n)
+    return typeof n === 'number' ? n : df
   },
 
   float: function (n, df = 0) {
-    return parseFloat(n) || df
+    var n = parseFloat(n)
+    return typeof n === 'number' ? n : df
   },
 
   interger: function (n, df) {
